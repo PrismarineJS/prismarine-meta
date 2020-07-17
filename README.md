@@ -9,6 +9,7 @@ Make it easy to do chores and maintenance work using the [meta](https://github.c
 Install :
 ```
 npm install
+npm run meta git update
 ```
 
 Add a new package :
