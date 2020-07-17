@@ -1,0 +1,27 @@
+{
+  "name": "prismarine-meta",
+  "version": "1.0.0",
+  "description": "Make it easy to do chores and maintenance work using the meta package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "meta": "meta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrismarineJS/prismarine-meta.git"
+  },
+  "keywords": [
+    "prismarine",
+    "meta"
+  ],
+  "author": "Romain Beaumont",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/prismarine-meta/issues"
+  },
+  "homepage": "https://github.com/PrismarineJS/prismarine-meta#readme",
+  "dependencies": {
+    "meta": "^2.2.13"
+  }
+}
