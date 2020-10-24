@@ -34,7 +34,6 @@
     "prismarine-template": "https://github.com/PrismarineJS/prismarine-template.git",
     "prismarine-viewer": "https://github.com/PrismarineJS/prismarine-viewer.git",
     "prismarine-windows": "https://github.com/PrismarineJS/prismarine-windows.git",
-    "prismarine-world": "https://github.com/PrismarineJS/prismarine-world.git",
-    "prismarine-yggdrasil": "https://github.com/PrismarineJS/prismarine-yggdrasil.git"
+    "prismarine-world": "https://github.com/PrismarineJS/prismarine-world.git"
   }
 }
