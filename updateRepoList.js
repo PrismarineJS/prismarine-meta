@@ -10,7 +10,6 @@ const yearInMs = 31556926000
 async function main (add) {
   const currentRepos = JSON.parse(fs.readFileSync('./.meta')).projects
   const repos = await fetch('https://api.github.com/orgs/prismarinejs/repos?per_page=100').then(r => r.json())
-  // console.log('Repos', repos)
   for (const repo of repos) {
     const msSinceUpdated = Date.now() - new Date(repo.pushed_at)
     if (repo.language && ['javascript', 'typescript'].includes(repo.language.toLowerCase()) &&
@@ -19,7 +18,7 @@ async function main (add) {
         console.log('Do not have', repo.name, 'added yet', 'last updated', msSinceUpdated / (1000 * 60 * 60 * 24), 'days ago')
         if (add) {
           console.log('adding... ')
-          exec(`npm run meta project import ${repo.name} ${repo.clone_url}`, { stdio: 'inherit' })
+          exec(`npm run meta project import ${repo.name} ${repo.clone_url}`)
         }
       }
     }
