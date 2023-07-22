@@ -4,7 +4,8 @@
   "description": "Make it easy to do chores and maintenance work using the meta package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "standard",
+    "fix": "standard --fix",
     "meta": "meta"
   },
   "repository": {

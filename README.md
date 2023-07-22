@@ -17,6 +17,14 @@ Add a new package :
 npm run meta project import prismarine-something https://github.com/PrismarineJS/prismarine-something.git
 ```
 
+Add all missing JS/TS PrismarineJS projects updated in the last year with :
+```sh
+# dry run to check if anything needs to be added to updateRepoList.js's `blockList`
+node updateRepoList.js
+# add everything after confirming
+node updateRepoList.js add
+```
+
 Do git actions on all repos : https://github.com/mateodelnorte/meta-git
 
 Prefer using `node_modules/.bin/meta` for better compatibility

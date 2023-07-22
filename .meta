@@ -34,6 +34,24 @@
     "prismarine-template": "https://github.com/PrismarineJS/prismarine-template.git",
     "prismarine-viewer": "https://github.com/PrismarineJS/prismarine-viewer.git",
     "prismarine-windows": "https://github.com/PrismarineJS/prismarine-windows.git",
-    "prismarine-world": "https://github.com/PrismarineJS/prismarine-world.git"
+    "prismarine-world": "https://github.com/PrismarineJS/prismarine-world.git",
+    "bedrock-protocol": "https://github.com/PrismarineJS/bedrock-protocol.git",
+    "node-mojangson": "https://github.com/PrismarineJS/node-mojangson.git",
+    "node-minecraft-protocol-forge": "https://github.com/PrismarineJS/node-minecraft-protocol-forge.git",
+    "dazed-sheep": "https://github.com/PrismarineJS/dazed-sheep.git",
+    "numerous-alpaca": "https://github.com/PrismarineJS/numerous-alpaca.git",
+    "mineflayer-pathfinder": "https://github.com/PrismarineJS/mineflayer-pathfinder.git",
+    "mineflayer-statemachine": "https://github.com/PrismarineJS/mineflayer-statemachine.git",
+    "prismarine-provider-raw": "https://github.com/PrismarineJS/prismarine-provider-raw.git",
+    "mineflayer-collectblock": "https://github.com/PrismarineJS/mineflayer-collectblock.git",
+    "mineflayer-pvp": "https://github.com/PrismarineJS/mineflayer-pvp.git",
+    "mineflayer-cmd": "https://github.com/PrismarineJS/mineflayer-cmd.git",
+    "mineflayer-tool": "https://github.com/PrismarineJS/mineflayer-tool.git",
+    "prismarine-schematic": "https://github.com/PrismarineJS/prismarine-schematic.git",
+    "bedrock-provider": "https://github.com/PrismarineJS/bedrock-provider.git",
+    "prismarine-web-client": "https://github.com/PrismarineJS/prismarine-web-client.git",
+    "prismarine-auth": "https://github.com/PrismarineJS/prismarine-auth.git",
+    "prismarine-registry": "https://github.com/PrismarineJS/prismarine-registry.git",
+    "prismarine-realms": "https://github.com/PrismarineJS/prismarine-realms.git"
   }
 }
