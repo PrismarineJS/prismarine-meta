@@ -1,4 +1,4 @@
-if (!globalThis.fetch) throw Error('update your node to version >=18')
+if (!globalThis.fetch) throw Error('update your node to version >=22')
 const fs = require('fs')
 const cp = require('child_process')
 
